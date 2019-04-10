@@ -54,6 +54,7 @@ class AppSidebarNav extends Component {
     if (document.body.classList.contains('sidebar-show')) {
       document.body.classList.toggle('sidebar-show');
     }
+    console.log(this);
   }
 
   // nav list
